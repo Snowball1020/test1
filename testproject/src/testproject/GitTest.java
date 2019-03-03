@@ -12,6 +12,8 @@ public class GitTest {
 
 	public static void Hello(){
 		System.out.println("Hi Git This is from yuki");
+		System.out.println("Can you hear me?");
+
 	}
 	
 }
