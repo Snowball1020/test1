@@ -1,7 +1,6 @@
 package testproject;
 
 import java.util.*;
-import java.util.regex.Matcher;
 public class GitTest {
 
 	static Scanner scn = new Scanner(System.in);
