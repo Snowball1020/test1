@@ -24,7 +24,7 @@ public class GitTest {
 		
 	
 	public static void askTime (String x){
-		System.out.println("so, " + x + " what is your plan for tonight??");
+		System.out.println("So, " + x + " What is your plan for tonight??");
 	}
 	
 }
