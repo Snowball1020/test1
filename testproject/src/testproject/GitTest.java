@@ -1,6 +1,7 @@
 package testproject;
 
 import java.util.*;
+import java.util.regex.Matcher;
 public class GitTest {
 
 	static Scanner scn = new Scanner(System.in);
@@ -8,9 +9,28 @@ public class GitTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Animal anm = new Dog();
+		anm.size(25, 2);
+		Dog doggy = new Dog();
+		doggy.run();
+		
+		Human human = new Human("Eiji",25,"Male");
+		Human human2 = new Human("Sena",24,"Female");
+		Human human3 = new Human("Kenta",24,"Female","Japan");
+
+		human.Hello();
+		human2.Hello();
+		human3.Hello();
+		
 		System.out.println("How many numbers would you like to compare??");
 
-		int num = scn.nextInt();
+		int num = 0;
+		do{
+			num = scn.nextInt();
+			if(num <= 1){
+				System.out.println("the number has to be more than 2");
+			}
+		}while(num <= 1);
 		
 		int[] numbers = new int[num];
 		
