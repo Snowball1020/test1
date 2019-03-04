@@ -7,6 +7,10 @@ public class GitTest {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		toString str = new toString("New",1993,20.5);
+		System.out.println(str);
+		
 
 		Animal anm = new Dog();
 		anm.size(25, 2);

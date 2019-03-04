@@ -30,8 +30,6 @@ public class Human {
 			System.out.println("Hi, I'm " + this.name + " My age is " + this.age + " my gender is " + this.gender + " and i am from " + this.country);						
 		}
 	}
-	
-	
-	
+		
 	
 }
