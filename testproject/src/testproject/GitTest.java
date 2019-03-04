@@ -1,33 +1,30 @@
 package testproject;
 
+import java.util.*;
 public class GitTest {
 
+	static Scanner scn = new Scanner(System.in);
+
+	static String x;	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Hello();
-		Dance(3);
-		double multiply = Multiply(2.5,5.5);
-		System.out.printf("Calculation result is: %.2f\n" ,multiply);
+		System.out.println("what is your name??");
+		getInput();
+		askTime(x);
+	}
 		
-	}
-
-	public static void Hello(){
-		System.out.println("Hi Git This is from yuki");
-		System.out.println("Can you hear me?");
-
-	}
 	
-	public static void Dance(int times){
+	public static void getInput(){
 		
-		System.out.println("We dance for " + times + " times today" );
+		x = scn.nextLine();
+		System.out.println("Welcome " + x + " How are you doing today??");
+	}
 		
-	}
 	
-	public static double Multiply(double d, double e){
-		double x = d * e;
-		return x;
+	public static void askTime (String x){
+		System.out.println("so, " + x + " what is your plan for tonight??");
 	}
-	
 	
 }
