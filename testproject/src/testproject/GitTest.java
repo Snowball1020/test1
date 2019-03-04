@@ -28,8 +28,10 @@ public class GitTest {
 			num = scn.nextInt();
 			if(num <= 1){
 				System.out.println("the number has to be more than 2");
+			}else if(num >=11){
+				System.out.println("this system only takes up to 10 numbers");
 			}
-		}while(num <= 1);
+		}while(num <= 1 || num >= 11);
 		
 		int[] numbers = new int[num];
 		
