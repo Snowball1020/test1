@@ -14,9 +14,9 @@ public class GitTest {
 		Dog doggy = new Dog();
 		doggy.run();
 		
-		Human human = new Human("Eiji",25,"Male");
+		Human human = new Human("Yuki",25,"Male");
 		Human human2 = new Human("Sena",24,"Female");
-		Human human3 = new Human("Kenta",24,"Female","Japan");
+		Human human3 = new Human("Ken",24,"Female","Japan");
 
 		human.Hello();
 		human2.Hello();
